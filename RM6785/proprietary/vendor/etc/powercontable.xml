@@ -124,6 +124,14 @@
         <MinValue>0</MinValue>
         <DefaultValue>0</DefaultValue>
     </CMD>
+	  <CMD name="PERF_RES_PERF_TASK_TURBO" id="0x0300c000">
+        <Entry path="/sys/module/task_turbo/parameters/feats"></Entry>
+        <Compare>more</Compare>
+        <MaxValue>15</MaxValue>
+        <MinValue>0</MinValue>
+        <DefaultValue>15</DefaultValue>
+	<Valid>1</Valid>	  
+	</CMD>
     <CMD name="PERF_RES_FPS_FPSGO_GPU_BLOCK_BOOST" id="0x0202c000">
         <Entry path="/sys/kernel/fpsgo/common/gpu_block_boost"></Entry>
         <Compare>more</Compare>
