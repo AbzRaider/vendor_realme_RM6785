@@ -287,6 +287,13 @@
         <MaxValue>32767</MaxValue>
         <MinValue>1</MinValue>
     </CMD>
+	  <CMD name="PERF_RES_FPS_EARA_THERMAL_ENABLE" id="0x02038000">
+        <Entry path="/sys/kernel/eara_thermal/enable"></Entry>
+        <Compare>more</Compare>
+        <MaxValue>1</MaxValue>
+        <MinValue>0</MinValue>
+	</CMD>	  
+	
     <CMD name="PERF_RES_CFP_ENABLE" id="0x03008000">
         <Entry path="/proc/perfmgr/boost_ctrl/cpu_ctrl/cfp_enable"></Entry>
         <Compare>less</Compare>
